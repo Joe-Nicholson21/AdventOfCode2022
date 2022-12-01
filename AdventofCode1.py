@@ -10,4 +10,5 @@ def Day_One(data):
 if __name__ == '__main__':
     data = open("day1.txt").read()
     part1,part2=Day_One(data)
-    print("Part1: ", part1, "\nPart2:", part2)dv
+    print("Part1: ", part1, "\nPart2:", part2)
+    data.close()
